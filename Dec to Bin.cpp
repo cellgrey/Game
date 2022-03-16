@@ -8,8 +8,6 @@ int main()
     void dectohex();
     int menu;
     cout << "1: Decimal to Binary" << endl;
-    cout << "2: Decimal to Hexdecimal" << endl;
-    cout << "3: Decimal to Oktal" << endl;
     cin >> menu;
     switch(menu){
     case 1: dectobin();
